@@ -1,0 +1,21 @@
+<configuration >
+  <preference value="KBs" name="kbDir" />
+  <preference value="yes" name="showcached" />
+  <preference value="inference" name="inferenceTestDir" />
+  <preference value="no" name="TPTP" />
+  <preference value="yes" name="holdsPrefix" />
+  <preference value="inference/kif-linux.kif" name="inferenceEngine" />
+  <preference value="8080" name="port" />
+  <preference value="no" name="typePrefix" />
+  <preference value="" name="testOutputDir" />
+  <preference value="no" name="cache" />
+  <preference value="no" name="loadCELT" />
+  <preference value="." name="baseDir" />
+  <preference value="localhost" name="hostname" />
+  <preference value="SUMO" name="sumokbname" />
+  <preference value="" name="prolog" />  
+  <kb name="SUMO" >
+    <constituent filename="KBs/Merge.kif" />   
+  </kb>
+</configuration>
+

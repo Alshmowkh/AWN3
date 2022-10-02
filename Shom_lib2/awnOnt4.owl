@@ -1,0 +1,887 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rhe="http://alshmowkh.org/2017/0/awnOnto#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#اِنْحِناء">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُنْحَنَى"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#عَدَم_التَّوَافُقِيَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#خَاصّيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَوْقِيْت_غرِيْنِيتش">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#زَمَن"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شُحُوب">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ضُهُور"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#جَدَارَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُلاءَمَة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حَدّ_أَدْنَى">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حَدّ"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#كُرَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#جِسْم_كُرَوِيّ"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَخْصِيَّة_مَظْهَرِيَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ضُهُور"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#أُسْلُوب">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#سُلُوك"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#قَانُونِيَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#سِمَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#صِفَة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#طَبْعَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَقَعُّر"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#رَغْبَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مِزَاج"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَجَعُّد">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#طَبْعَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#جَمَال">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ضُهُور"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حَرَكَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مَجْمُوعَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَجْرِيد"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#وَجْه">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ضُهُور"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#عَزْم">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَصْمِيم"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَفْع">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#زَمَن">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَجْرِيد"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُلاءَمَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#عَدَم_مَسْؤُولِيَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#عَدَم_ثِقَة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#إِهْمَال">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#اِنْتِبَاه"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#صَمْت">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#بُعْد">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#زَاوِيَة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَقَعُّر">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُجَسَّم"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#سُلُوك">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سُلُوك"/>
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَعْبِيَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#الزَمَن_الكَوْنِي">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#زَمَن"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#دَائِرَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#قَطْع_نَاقِص"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#غَدّ">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُسْتَقْبَل"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ثِقَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#سَذَاجَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#ثِقَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حِكْمَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#أَنَاقَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#اليَوْم">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#الوَقْت_الحَاضِر"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُكَعَّب">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُجَسَّم"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#الطَالِح">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#عَدَم_ثِقَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#أَرْجَحِيَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَاكِلَة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَشَابُه">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#تَشَابُه"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مِصْدَاقِيَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#عَدَم_الإِنْتِظَامِ">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نُقْطَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#قُرْص"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#سِلْسِلَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#زَمَن"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَصْمِيم">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#الزَمَن_الحَاضِر">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#الوَقْت_الحَاضِر"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُسْتَقْبَل">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#مُسْتَقْبَل"/>
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#زَمَن"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#اِنْتِفَاخ">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#بُرُوز"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَمَوُّج">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُنْحَنَى"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#هَرَم">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُتَعَدِّد_السُّطُوح"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#عَدَم_إِحْسَاس">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَمْيِيز">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَبَايُن"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#عَلاقَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَجْرِيد"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ماضٍ">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#زَمَن"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#خَيْر">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#جِسْم_كُرَوِيّ">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل_دَائِرِيّ"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُسْتَطِيل">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكل_مُسْتَوٍ"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُتَوَازِي"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#صِفَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَجْرِيد"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نْل_خ">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#نْل_خ"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ضَعْف">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حَجَر">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#بُرُود"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَبَايُن">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#زَمَن_جيولوجي">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#زَمَن"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#كَيْنُونَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#كلمة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#قُوَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#سَنَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَوْقِيت"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#أُسْطُوَانَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُجَسَّم"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#الأن">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#الوَقْت_الحَاضِر"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#عَقْلانِيَّة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#حِكْمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#اِتِّضَاح">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#وُضُوح"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْع">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#تَشَابُه"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُسْتَوِي">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل_طَبِيعِيّ">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكل_مُسْتَوٍ">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حَدّ_أعْلى">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حَدّ"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مِزَاج">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#طَبْع"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#قَوْس">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُنْحَنَى"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#لامُبَالاة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#رَغَد"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَسَلُّط">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#قَطْع_نَاقِص">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مَقْطَع"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#الزَّاوِيَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#خَط_مُستَقِيم">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#خَطّ"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ضُهُور"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكْل"/>
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#صِفَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُضَلَّع">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُتَساوِي"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكل_مُسْتَوٍ"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#التَوْقِيْت_الشَّرْقِي">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَوْقِيت"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#صَبْر">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#طِيبَة_النَّفْس"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#اِنْطِبَاع">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ضُهُور"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل_عَشْوَائِي">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكْل"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَسَاو">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُسَاوَاة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُدَّة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#زَمَن"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُمَاس">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#خَط_مُستَقِيم"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#جَهَاْلَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَارِيخ">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِلْسِلَة"/>
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#ماضٍ"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#بُرُود">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#عَدَم_إِحْسَاس"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مَنْحُوت">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَحْت"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَشْوِيْه">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكْل"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حَلَقَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُنْحَنَى"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#اِنْثِنَاء">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#الزَّاوِيَّة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حَدَث">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#كلمة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#رُبَاعِيّ_الأضْلاع">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#مُضَلَّع"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُقَارَنَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَبَه"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#جَد_يد">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#الوَقْت_الحَاضِر"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#الوَقْت_الحَاضِر">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#الوَقْت_الحَاضِر"/>
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#زَمَن"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَوْقِيْت_المُحِيْط">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَوْقِيت"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#رَغَد">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#عَدَم_مَسْؤُولِيَّة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مَبَادِىء">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#عَصْر">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#زَمَن_جيولوجي"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَمَرُّد">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#صَلابَة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#رُوح">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حَيَوِيَّة"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَخْصِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#غُرُور">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُحَيَّا">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ضُهُور"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَجْرِيدِيَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#لامَادِّيّ"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل_دَائِرِيّ">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكْل"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#خَاصّيَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ظَاهِرَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#كلمة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#الحَقِيقِيَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَبَه">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#تَشَابُه"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#رَأْس">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل_مُحَدَّب"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حَقِيقَة_مُضَادَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَحَفُّظ">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#صَمْت"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#فَضاء">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#فَرَاغ"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حَيَوِيَّة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#حَرَكَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#قِدَم">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#ماضٍ"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#عَدَم_الإِبْتِكَار">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُتَعَدِّد_السُّطُوح">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُجَسَّم"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#طَبِيعَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ثُقْب">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مَجَال"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#قَاعِدَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#جَنْب"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#إِنْتِمَاء_عِرْقِيّ">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُجَسَّم">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكْل"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَطَابُق">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#تَشَابُه"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حُكْم">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُنْحَنَى_جَيْبِيّ">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#تَمَوُّج"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَقَلُّب">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مَقْطَع">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكل_مُسْتَوٍ"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَخْصِيَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#هَوِيَّة"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#صِفَة"/>
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَوْقِيت">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#زَمَن"/>
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#الزَمَن_الكَوْنِي"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#جَمَاعَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#كلمة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#التَوْقِيت_القِيَاسِي">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#تَوْقِيت"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَوْقِيْت_وَسَط">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#تَوْقِيت"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#صِفَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شِدَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#صُعُوبَة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#طِيبَة_النَّفْس">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#مِزَاج"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَجْرِيد">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#كلمة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حَدّ">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#خَطّ"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#بُرُوز">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل_مُحَدَّب"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مَجَال">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكْل_عَشْوَائِي"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#طَبْع">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#نَحْت">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل_مُجَسَّم"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#هَوِيَّة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَخْصِيَّة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#اِنْتِبَاه">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#تَعْبِير">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#مُحَيَّا"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#قَوْس_قُزَح">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#اِنْحِناء"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُنْحَنَى">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُنْحَنى"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#خَطّ"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُرَبَّع">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#مُسْتَطِيل"/>
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#مُضَلَّع"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#قَابِلِيَّة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#قَابِلِيَّة"/>
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#تَقَلُّب"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُبَادَلَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#قَابِلِيَّة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَاكِلَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ضُهُور"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُتَساوِي">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#مُضَلَّع"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#صَلابَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#دِقَّة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#صُعُوبَة"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#فِعْل">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#كلمة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#وُضُوح">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#قُرْص">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكْل_دَائِرِيّ"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#اِنْضِبَاط">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُنْحَنى">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#مُنْحَنَى"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مِيْزَة_نَفْسِيَّة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#كلمة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مَظْهَر">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ضُهُور"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#دَافِع">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#قَطْرَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكْل_دَائِرِيّ"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل_مُحَدَّب">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#مُجَسَّم"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حَالَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#كلمة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#زَمَن_مُوسِيقِي">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#زَمَن"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#القَطْع_المُكَافئ">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#مَقْطَع"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#فُتْحَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#مَجَال"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#دَرَجَة">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُؤَهِّل"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#اِسْتِحْقَاق">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#وَصْف">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#صِفَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#فَرَاغ">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#تَجْرِيد"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُؤَهِّل">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#جَدَارَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#أسْطُوَانَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#أُسْطُوَانَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#لامَادِّيّ">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ثَبَات">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل_فَرْعِيّ">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكْل"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مِلْك">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#كلمة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#صُعُوبَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#فُسُوق">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُتَوَازِي">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#رُبَاعِيّ_الأضْلاع"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ضُهُور">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#لَوْن">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#ضُهُور"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#ساعَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#تَوْقِيت"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#طُمُوح">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#دَافِع"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#رَبْط">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#رابِط"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#زَاوِيَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#زَاوِيَة"/>
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#مَجَال"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#التَوْقِيت_العَالَمِي">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#تَوْقِيْت_غرِيْنِيتش"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#حُفْرَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#فُتْحَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#قُبْح">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#ضُهُور"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#مُسَاوَاة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#مُسَاوَاة"/>
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#تَشَابُه"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#غَطْرَسَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#غُرُور"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#أُنْشُوطَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#حَلَقَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#سُخْف">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#جَهَاْلَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#قُدْرَة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#أَنَانِيَّة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#سِمَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#رَسْم">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#اِتِّضَاح"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#خَطّ">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكْل"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#رابِط">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكْل"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شيء">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#صِفَة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#شَكْل_مُجَسَّم">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكْل"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#يَوْم_نَجْمِي">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#تَوْقِيت"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#إِنْتِظَام">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#نَوْعِيَّة"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#جَنْب">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#شَكْل_فَرْعِيّ"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#كَمِّيَّة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#تَجْرِيد"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://alshmowkh.org/2017/0/awnOnto#اِنْعِدام_قابِلِيَّة">
+    <rdfs:subClassOf rdf:resource="http://alshmowkh.org/2017/0/awnOnto#ثَبَات"/>
+  </owl:Class>
+</rdf:RDF>

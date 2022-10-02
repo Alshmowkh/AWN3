@@ -1,0 +1,6 @@
+Arabic synsets	SELECT COUNT(*) FROM item WHERE itemid LIKE '%AR'
+Arabic words	SELECT COUNT(*) FROM word WHERE synsetid LIKE '%AR'
+Synsets translated by Sabri	SELECT COUNT(*) FROM item, authorship WHERE itemid LIKE '%AR' and author='sabri' and item.authorshipid = authorship.authorshipid
+Words translated by Sabri	SELECT COUNT(*) FROM word, authorship WHERE synsetid LIKE '%AR' and author='sabri' and word.authorshipid = authorship.authorshipid
+Synsets translated by Musa	SELECT COUNT(*) FROM item, authorship WHERE itemid LIKE '%AR' and author='musa' and item.authorshipid = authorship.authorshipid
+Words translated by Musa	SELECT COUNT(*) FROM word, authorship WHERE synsetid LIKE '%AR' and author='musa' and word.authorshipid = authorship.authorshipid
